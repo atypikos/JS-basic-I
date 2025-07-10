@@ -10,13 +10,37 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
-
+console.log('Bienvenida/o al bootcamp de SuperKode Online de Factoría F5')
 
 
 //VARIABLES Y TIPOS DE DATOS
 //Ejercicio 2: Crea una variable por los siguientes tipos de dato: string, number, boolean, null, undefined, object, array e imprímelos en la consola.
 
 //Escribe tu código aquí
+
+let nombre = "Calero";
+console.log("String:", nombre);
+
+let MiEdad = 32;
+console.log("Number:", MiEdad);
+
+let Manco = true;
+console.log("Manco-Boolean:", Manco);
+
+let ConocimientoJs = null;
+console.log("Null:", ConocimientoJs);
+
+let NoMeDefinieron;
+console.log("Undefined:", NoMeDefinieron);
+
+let WoW = {
+    nombre,
+    "Manco": true
+};
+console.log("Object:", WoW);
+
+let Calero = ["manco", "motos", "fotos"];
+console.log("Array:", Calero);
 
 
 
@@ -26,14 +50,16 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
-
+let sumar = 2+2;
+console.log("Resultado:", sumar);
 
 
 //Ejercicio 5: Crea una varible que reste 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+let resta = 2-3;
+console.log("Resultado:", resta);
 
 
 //Ejercicio 6: Crea una varible que multiplique 2 números e imprime el resultado en consola.
