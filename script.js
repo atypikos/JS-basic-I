@@ -66,14 +66,16 @@ console.log("Resultado:", resta);
 
 //Escribe tu código aquí
 
-
+let multiplicar = 2*2;
+console.log("Resultado:", multiplicar);
 
 
 //Ejercicio 7: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+let dividir = 10/3;
+console.log("Resultado:", dividir);
 
 
 //OPERADORES DE COMPARACIÓN
@@ -81,8 +83,11 @@ console.log("Resultado:", resta);
 
 //Escribe tu código aquí
 
+let valor1 = 1;
+let valor2 = 2;
 
-
+let comparar = valor1 === valor2;
+console.log("Comparación:", comparar);
 
 // Ejercicio 9: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
 
