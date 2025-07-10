@@ -95,6 +95,8 @@ console.log("Comparación:", comparar);
 
 
 
+let comparar2 = valor1+1 === valor2;
+console.log("Comparación2:", comparar2);
 
 //Ejercicio 10: completa el ejercicio
 /*
@@ -105,6 +107,12 @@ let comparacion = //Realiza la operación de comparación que consideres para qu
 console.log(comparacion)
 */
 
+let num1 = 15;
+let num2 = 20;
+
+let comparacion = num1 === num2-5;
+console.log("ComparacionEj10:", comparacion);
+
 //Ejercicio 11: completa el ejercicio
 /*
 let num3 = 1
@@ -113,6 +121,12 @@ let num3AsString = "1"
 let result = //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
 console.log(result) 
 */
+
+let num3 = 1;
+let num3AsString = "1";
+
+let result = num3 === num3AsString;
+console.log("Resultado:", result);
 
 //Ejercicio 12: completa el ejercicio
 /*
