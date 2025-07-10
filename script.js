@@ -134,12 +134,23 @@ let result2 = //Realiza la operación de comparación que consideres con las dos
 console.log(result2)
 */
 
+let result2 = num3 == num3AsString;
+console.log("ResultadoEj12:", result2);
 
 //OPERADORES DE CADENAS
 //Ejercicio 13: Crea una variable con tu nombre y otra variable con tu apellido y crea otra nueva variable con tu nombre completo concatenando las dos variables anteriores e imprime en consola. Debe haber un espacio entre tu nombre y apellido.
 
 //Escribe tu código aquí
 
+let myname = "Sergi";
+let mysurname = "Rovira";
+let nickname = "Pambo";
+let phraseIntro = "But you can call me:"
+
+let myfullname = myname + " " + mysurname;
+let fullNickname = phraseIntro + " " + nickname;
+
+console.log("NombreCompleto", myfullname, fullNickname);
 
 
 
